@@ -57,6 +57,7 @@ La información contenida en la muestra es la siguiente:
 """
 
 import pandas as pd
+from sklearn.preprocessing import OneHotEncoder
 
 
 def pregunta_01():
@@ -123,7 +124,7 @@ def pregunta_03():
     # Importe OneHotEncoder
     # Importe Pipeline
     from sklearn.linear_model import LogisticRegressionCV
-    from sklearn.preprocessing OneHotEncoder
+    from sklearn.preprocessing import OneHotEncoder
     from sklearn.pipeline import Pipeline
 
     # Cargue las variables.
